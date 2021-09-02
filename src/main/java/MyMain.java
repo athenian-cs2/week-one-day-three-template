@@ -39,6 +39,11 @@ public class MyMain {
         return 0;
     }
 
+    // This method carries out the quadratic formula and *prints* out the answers
+    public static void quadForm(int a, int b, int c) {
+        return;
+    }
+
     public static void main(String[] args) {
         // Test the add5 method
         int x = 2;
