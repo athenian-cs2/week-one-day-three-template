@@ -1,30 +1,50 @@
-import java.util.Scanner;
-
 public class MyMain {
-
-    // Calculates the median of the three inputs
-    public static int median(int a, int b, int c) {
-        return 0; // REPLACE WITH YOUR CODE
+    // Adds 5 to the given integer
+    // This method has been written for you
+    public static int add5(int x) {
+        return (x + 5);
     }
 
-    // Returns the input with the larger absolute value
-    public static int magnitude(int a, int b) {
-        return 0; // REPLACE WITH YOUR CODE
+    // Given three ints x, y, and z, this method
+    // returns the largest of the three numbers
+    public static int findBiggestNumber(int x, int y, int z) {
+        // REPLACE THIS WITH YOUR CODE
+        return 0;
     }
 
-    // Returns the "c" value from the Pythagorean theorem "a^2 + b^2 = c^2",
-    // where "a" and "b" are the inputs to the method
-    public static double pythagoras(int a, int b) {
-        return 0.0; // REPLACE WITH YOUR CODE
+    // This method simulates the flip of a coin, where
+    // true represents "heads" and false represents "tails"
+    // This method should return true half the time, and false the other half
+    public static boolean flipCoin() {
+        // REPLACE THIS WITH YOUR CODE
+        return false;
+    }
+
+    // This method simulates the flip of a weighted coin,
+    // that is a coin that is biased towards heads
+    public static boolean flipWeightedCoin() {
+        // REPLACE THIS WITH YOUR CODE
+        return false;
+    }
+
+    // This method rounds a double to the nearest whole number
+    public static int round(double d) {
+        // REPLACE THIS WITH YOUR CODE
+        return 0;
+    }
+
+    // This method returns a random number between 1 and 6, inclusive
+    public static int rollDie() {
+        // REPLACE THIS WITH YOUR CODE
+        return 0;
     }
 
     public static void main(String[] args) {
-        // You may want to keep these lines of code to test that your methods work
-        System.out.println(median(1, 2, 3)); // should be 2
-        System.out.println(magnitude(-7, -1)); // should be -7
-        System.out.println(pythagoras(3, 4)); // should be 5.0
+        // Test the add5 method
+        int x = 2;
+        int y = add5(x);
+        System.out.println(y);
 
-        Scanner scan = new Scanner(System.in);
         // YOUR CODE HERE
     }
 }
